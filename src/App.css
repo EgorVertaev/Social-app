@@ -1,0 +1,47 @@
+li {
+  list-style: none;
+  font-size: 25px;
+}
+
+.app-wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+
+ grid-template-areas: 
+ "header header "
+ "nav main"
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+}
+
+.header {
+  background-color: rgb(190, 129, 129);
+  grid-area: header;
+}
+
+.nav {
+  background-color: rgb(205, 221, 140);
+  grid-area: nav;
+}
+
+.main {
+  background-color: rgb(50, 83, 116);
+  grid-area: main;
+}
+
+.main__bg {
+  width: 100%;
+  height: 200px;
+}
+
+
+
+
+
