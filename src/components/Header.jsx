@@ -1,9 +1,9 @@
-import logo from '../img'
+import style from "./../style/components/Header.module.css";
 
 function Header() {
   return (
-    <header className="header">
-      <img className="logo" src={logo}/>
+    <header className={style.header}>
+      <img className={style.logo} src=""/>
     </header>
   );
 }

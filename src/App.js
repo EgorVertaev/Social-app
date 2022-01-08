@@ -1,6 +1,7 @@
-import "./App.css";
+import "./style/App.css";
+import "./style/reset.css";
 import Header from "./components/Header";
-import NavBar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Profile from "./components/Profile";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="app-wrapper">
       <Header/>
       <Profile/>
-      <NavBar/>
+      <Navbar/>
     </div>
   );
 }

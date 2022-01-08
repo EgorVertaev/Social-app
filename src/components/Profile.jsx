@@ -1,10 +1,10 @@
-
+import style from "./../style/components/Profile.module.css";
 
 function Profile() {
     return (
-        <main className="main">
+        <main className={style.main}>
         <img
-          className="main__bg"
+          className={style.bg}
           src="https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=800&h=300"
         />
         <div>ava + desc</div>
