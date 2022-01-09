@@ -1,0 +1,27 @@
+.dialogs {
+    display: flex;
+}
+
+.dialogList {
+    flex: 3;
+}
+
+.dialogItem {
+
+}
+
+.dialogLink {
+    color: #ffffff
+}
+
+.active {
+    color: #c5a875;
+}
+
+.messageList {
+    flex: 7;
+}
+
+.messageItem {
+
+}
